@@ -1,11 +1,36 @@
 body {
-    background-color: #B80000;
-    color: black;
+    background-color: #1E1E2F;
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 50px;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: #2D2D44;
+    padding: 20px;
+    margin: 0 10px 10px 0;
+
 }
 
 ul {
     text-align: left;
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+    border: 10px solid #252528;
+    border-radius: 15px;
+}
+
+p,
+li {
+    color: #C0C0C0;
+}
+
+.container {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
 }
